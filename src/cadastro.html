@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge" >
+	<meta name="viewport">
+	<title>Pizzaria Saraiva</title>
+	</head>
+	<body>
+		<FORM method="post">
+			<h1>Cadastro</h1>
+			<p>
+				Nome: <input type="name" name="nome"> <br>
+				Sexo: <input type="radio" name="sexo"> Masculino <input type="radio" name="sexo"> Feminino <br>
+				Email: <input type="Email" name="email"> <br>
+				CPF: <input type="phonenumber" name="documento"> <br>
+				Endereço: <input type="name" name="rua"> Número: <input type="name"> <br>
+				Bairro: <input type="name" name="bairro"> 
+				Cidade: <input type="name" name="cidade">
+				Estado:
+				<select id="states"></select>
+				<!-- <SELECT>
+					<option>AC</option> 
+					<option>AL</option>
+					<option>AP</option>
+					<option>AM</option>
+					<option>BA</option>
+					<option>CE</option>
+					<option>DF</option>
+					<option>ES</option>
+					<option>GO</option>
+					<option>MA</option>
+					<option>MT</option>
+					<option>MS</option>
+					<option>MG</option>
+					<option>PA</option>
+					<option>PB</option>
+					<option>PR</option>
+					<option>PE</option>
+					<option>PI</option>
+					<option>RR</option>
+					<option>RO</option>
+					<option>RJ</option>
+					<option>RN</option>
+					<option>RS</option>
+					<option>SC</option>
+					<option>SP</option>
+					<option>SE</option>
+					<option>TO</option>
+				</SELECT> -->
+				<br>
+				CEP: <input type="number" name="cep">
+				<br>
+				Senha: <input type="pwd" name="senha">
+				<br>
+				Confirme a senha: <input type="pwd" name="senha">
+			</p>
+		</FORM>
+		<script src="./states.js"></script>
+		<script>
+			console.log(document.getElementById("states"))
+		</script>
+	</body>
+</html>
